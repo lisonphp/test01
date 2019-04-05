@@ -12,6 +12,7 @@ class IndexAction extends Action {
 
 	public function asd(){
 		echo 213;exit;
+		echo '第2次git';exit;
 	}
 
 	//接收省份和关注品牌，返回电销公司
