@@ -1,9 +1,34 @@
-//twos
+//threee
 
 # --------------
 # Please enter the commit message for your changes. Everything below
 # this paragraph is ignored, and an empty message aborts the commit.
 # Just close the window to accept your message.
+diff --git a/COMMIT_EDITMSG.COMMIT_EDITMSG b/COMMIT_EDITMSG.COMMIT_EDITMSG
+new file mode 100644
+index 0000000..ee6a526
+--- /dev/null
++++ b/COMMIT_EDITMSG.COMMIT_EDITMSG
+@@ -0,0 +1,18 @@
++//twos
++
++# --------------
++# Please enter the commit message for your changes. Everything below
++# this paragraph is ignored, and an empty message aborts the commit.
++# Just close the window to accept your message.
++diff --git a/bb.php b/bb.php
++index d6015b5..02c65bb 100644
++--- a/bb.php
+++++ b/bb.php
++@@ -12,6 +12,7 @@ class IndexAction extends Action {
++ 
++ 	public function asd(){
++ 		echo 213;exit;
+++		echo '第2次git';exit;
++ 	}
++ 
++ 	//接收省份和关注品牌，返回电销公司
+\ No newline at end of file
 diff --git a/bb.php b/bb.php
 index d6015b5..02c65bb 100644
 --- a/bb.php

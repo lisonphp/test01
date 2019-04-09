@@ -13,10 +13,14 @@ class IndexAction extends Action {
 	public function asd(){
 		echo 213;exit;
 		echo '第2次git';exit;
+		echo '第3次git';exit;
+		$lison=true;
+		//$aa=html
 	}
 
 	//接收省份和关注品牌，返回电销公司
 	function getcustomercompany(){
+		$lison=23;
 		if($this->isAjax()){			
 			$province = trim($_POST['province']);
 			$product_id = intval($_POST['product_id']);	
